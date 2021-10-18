@@ -1,0 +1,25 @@
+### GET
+GET https://rwvbm33is5.execute-api.us-east-1.amazonaws.com/dev/ HTTP/1.1
+
+### GET ONE
+GET https://rwvbm33is5.execute-api.us-east-1.amazonaws.com/dev/2 HTTP/1.1
+
+### POST
+POST https://rwvbm33is5.execute-api.us-east-1.amazonaws.com/dev/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "todo": "New Todo item 1"
+}
+
+### UPDATE TODO
+PUT https://rwvbm33is5.execute-api.us-east-1.amazonaws.com/dev/2 HTTP/1.1
+Content-Type: application/json
+
+{
+
+    "completed": true
+}
+
+### DELETE ITEM
+DELETE https://rwvbm33is5.execute-api.us-east-1.amazonaws.com/dev/1 HTTP/1.1
